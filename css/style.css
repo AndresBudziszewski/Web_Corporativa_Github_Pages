@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+
+/* INDEX */
+
+.index {
+    padding-top: 300px;
+    background-image:
+        url(../img/logo.PNG),
+        url(../img/fondo.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-position: center 1rem, center;
+    background-size: 200px, cover;
+    text-align: center;
+    font-family: breaking_bad;
+    color: white;
+}
+
+
+.title {
+    text-align: center; 
+    padding: 2rem 0;
+}
+
+.index h2 {
+    margin-bottom: 2.5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border: 10px solid brown;
+    border-style: outset;
+    border-radius: 22px;
+}
+
+area {
+    cursor: pointer;
+}
+
+/* FORMULARIO */
+
+.form {
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: helvetica, arial, sans-serif;
+    color: whitesmoke;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: auto;
+    background-color: #2b2c24bb;
+    padding: 1rem;
+}
+
+.form form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.form form input {
+    padding: .2rem;
+}
+
+.form-gender,
+.form-birthdate {
+    display: flex;
+    margin: .3rem;
+    gap: .5rem;
+}
+
+.form-characters {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.form-characters label {
+    flex-grow: 1;
+}
+
+.form-characters select {
+    flex-grow: 999;
+    padding: .3rem;
+}
+
+.form-coment {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.form-coment textarea {
+    padding: .2rem;
+    resize: none;
+    overflow: scroll auto visible;
+    min-height: 7rem;
+}
+
+#file {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-controls {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.form-btn {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* TABLA */
+
+.table-page {
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    background: #0c3e11 url(../img/cabecera.png);
+    background-repeat: no-repeat;
+    background-position: center top 2rem;
+    padding-top: 250px;
+}
+
+table {
+    background-color: #2b2c24;
+    margin: auto; 
+    border: 5px solid transparent;
+    border-spacing: 5px;
+    margin: 1rem auto;
+    color: #2b2c24;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    justify-content: space-between;
+    width: 75px;
+    height: 77px;
+}
+
+.t-name {
+    padding: 0px 2px;
+    width: 100%;
+}
+
+.xl-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b2c24;
+}
+
+.walterwhite {
+    background: url("../img/walterwhite.png");
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    padding-top: 4.5rem;
+}
+
+.xs-text {
+    font-size: 10px;
+}
+
+.bg-img1 {
+    background: url("../img/hankschrader.png");
+    background-size: cover; 
+    background-position: center;
+}
+
+.hc {
+    background: url("../img/hectorsalamanca.png");
+}
+
+.ts {
+    background: url("../img/tucosalamanca.png");
+}
+
+.gf {
+    background: url("../img/gustavofrink.png");
+}
+
+.sw {
+    background: url("../img/skylerwhite.png");    
+}
+
+.sa {
+    background: url("../img/saulgoodman.png");
+}
+
+.jp {
+    background: url("../img/jessiepinkman.png");
+}
+
+.gb {
+    background: url("../img/gale.png");
+}
+
+.ms {
+    background: url("../img/marieschrader.png");
+}
+
+.bd {
+    background: url("../img/badger.png");
+}
+
+.me {
+    background: url("../img/mike.png");
+}
+
+.w-img {
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    padding-bottom: 5.5rem;
+    background-size: 65px 77px;
+}
+
+
+.bus {
+    background: url("../img/bus.png");
+    background-size: 98% auto;
+}
+
+.pistol {
+    background: url("../img/pistola.png");
+    background-size: 102% auto;
+}
+
+.potion {
+    background: url("../img/pocima.png");
+    background-size: 80% auto;
+}
+
+.movile {
+    background: url("../img/movil.png");
+    background-size: 90% auto;
+}
+
+.fly {
+    background: url("../img/mosca.png");
+    background-size: 95% auto;
+}
+
+.crystal {
+    background: url("../img/cristal.png");
+    background-size: 65% auto;
+}
+
+.pizza {
+    background: url("../img/pizza.png");
+    background-size: 90% auto;
+}
+
+.boxers {
+    background: url("../img/calzoncillos.png");
+    background-size: 90% auto;
+}
+
+.mask {
+    background: url("../img/mascara.png");
+    background-size: 85% auto;
+}
+
+.plate {
+    background: url("../img/plato.png");
+    background-size: 85% auto;
+}
+
+
+
+.table2 td {
+    width: 75px;
+    height: 77px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color1 {
+    background-color: #b5dc1c;
+}
+
+.color2 {
+    background-color: #ac8dcf;
+}
+
+.color3 {
+    background-color: #f2f8cd;
+}
+
+.color4 {
+    background-color: #8aa416;
+}
+
+.color5 {
+    background-color: #637026;
+}
+
+.color6 {
+    background-color: #c5e249;
+}
+
+.color7 {
+    background-color: #bcc3a1;
+}
+
+.color8 {
+    background-color: #818d4d;
+}
+
+.color9 {
+    background-color: #d7e97c;
+}
+
+.t2-color {
+    background-color: #c5c724;
+}
+
+.t2-color img {
+    width: 100%;
+    max-height: 100%;
+}
+
+@font-face {
+    font-family: breaking_bad;
+    src: url(../img/Breaking\ Bad.ttf);
+}
